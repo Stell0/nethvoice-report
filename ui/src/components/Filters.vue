@@ -833,7 +833,6 @@ export default {
       }
 
       // format time interval
-
       if (filterToApply.time.interval) {
         let dateFormat = "";
 
@@ -1098,6 +1097,24 @@ export default {
           }
         );
       }
+    },
+    contactNameInput(event) {
+      if (typeof event == "string") {
+        this.filter.contactName = event;
+      }
+    },
+    clearFilters() {
+      this.filter.queues = [];
+      this.filter.groups = [];
+      this.filter.agents = [];
+      this.filter.ivrs = [];
+      this.filter.reasons = [];
+      this.filter.results = [];
+      this.filter.choices = [];
+      this.filter.destinations = [];
+      this.filter.origins = [];
+      this.filter.caller = "";
+      this.filter.contactName = "";
     },
     contactNameInput(event) {
       if (typeof event == "string") {
