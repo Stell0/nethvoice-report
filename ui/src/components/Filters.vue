@@ -833,6 +833,7 @@ export default {
       }
 
       // format time interval
+
       if (filterToApply.time.interval) {
         let dateFormat = "";
 
