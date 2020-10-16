@@ -1,3 +1,21 @@
 {
-  "it": {}
+  "it": {
+    "filter": {
+      "group_by": "Raggruppato per",
+      "saved_search": "Ricerche salvate",
+      "time_interval": "Intervallo temporale",
+      "yesterday": "Ieri",
+      "last_week": "Ultima settimana",
+      "last_month": "Ultimo mese",
+      "day": "Giorno",
+      "week": "Settimana",
+      "month": "Mese",
+      "year": "Anno"
+    },
+    "menu": {
+      "dashboard": "Dashboard",
+      "filters": "Filtri",
+      "active_filters": "Filtri attivi"
+    }
+  }
 }

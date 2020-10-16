@@ -35,7 +35,7 @@
             v-on:click="toggleFilters()"
             class="filter-button"
             :active="showFilters"
-            content="Filters"
+            v-bind:content="$t('menu.filters')"
             icon="filter"
           />
         </sui-popup>
@@ -43,10 +43,8 @@
       <h1 is="sui-header" class="view-title">
         {{ title }}
       </h1>
-      <div v-show="this.showFilters">
-        <Filters />
-      </div>
     </sui-container>
+    <Filters :showFiltersForm="showFilters" />
 
     <!-- settings modal -->
     <sui-form @submit.prevent="saveAdminSettings()">
@@ -226,8 +224,8 @@ export default {
   padding: 14px 0px 15px 0px !important;
   min-height: 65px;
   margin-bottom: 0 !important;
-  border-bottom: 1px solid rgba(34, 36, 38, 0.15);
-  box-shadow: 0 1px 2px 0 rgba(34, 36, 38, 0.15);
+  border-bottom: none;
+  box-shadow: none;
 
   .ui.container {
     margin-right: 3em !important;

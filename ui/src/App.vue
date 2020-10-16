@@ -12,7 +12,7 @@
       <!-- start leftsidebar -->
       <LeftSidebar />
       <div class="docs-container">
-        <!-- start leftsidebar -->
+        <!-- start topbar -->
         <TopBar />
         <!-- end topbar -->
         <div class="mg-3-em">
@@ -121,6 +121,7 @@ export default {
 
 .mg-top-md {
   margin-top: 2rem !important;
+  padding-left: 7px;
 }
 
 .mg-bottom-md {

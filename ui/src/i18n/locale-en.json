@@ -1,5 +1,17 @@
 {
   "en": {
+    "filter": {
+      "group_by": "Group by",
+      "saved_search": "Saved search",
+      "time_interval": "Time interval",
+      "yesterday": "Yesterday",
+      "last_week": "Last week",
+      "last_month": "Last month",
+      "day": "Day",
+      "week": "Week",
+      "month": "Month",
+      "year": "Year"
+    },
     "menu": {
       "queue": "Queue report",
       "cdr": "CDR & Cost report",
@@ -12,8 +24,10 @@
       "settings": "Settings",
       "login": "Login",
       "logout": "Logout",
+      "filters": "Filters",
       "hide_filters": "Hide filters",
-      "show_filters": "Show filters"
+      "show_filters": "Show filters",
+      "active_filters": "Active filters"
     },
     "data": {
       "summary": "Summary",
